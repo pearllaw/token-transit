@@ -1,0 +1,108 @@
+.header {
+  position: relative;
+  margin: 0;
+  width: 100%;
+}
+
+.title1 {
+  font-family: 'Roboto Slab';
+  font-style: oblique;
+  font-weight: 300;
+  font-size: 35px;
+  color: white;
+  position: absolute;
+  top: 255px;
+  left: 445px;
+}
+
+.title2 {
+  font-family: 'Roboto Slab', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 56px;
+  text-transform: uppercase;
+  color: white;
+  position: absolute;
+  top: 292px;
+  left: 415px;
+}
+
+.download-button {
+  border: 0;
+  border-radius: 2px;
+  padding: 18px 20px;
+  height: 53px;
+  width: 190px;
+  background-color: rgb(48,154,209);
+  color: white;
+  font-family: 'Roboto Slab', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 430px;
+  left: 535px;
+}
+
+.caption {
+  font-family: 'Roboto Slab', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: rgb(123,124,124);
+  position: absolute;
+  word-spacing: .15em;
+  top: 465px;
+  left: 550px;
+}
+
+.sendApass,
+.requestAdemo,
+.download,
+.support, {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: rgb(245, 245, 245);
+  position: absolute;
+  top: 25px;
+  right: 60px;
+  margin: 5px;
+}
+
+
+.tokenTransit {
+  font-family: 'Roboto Slab', sans-serif;
+  font-style: thin;
+  font-weight: 100;
+  font-size: 17px;
+  color: rgb(48, 161, 247);
+  position: absolute;
+  top: 25px;
+  left: 230px;
+}
+
+.svg {
+
+}
+
+.block-1 .block-title {
+  font-family: 'Roboto Slab', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.block-1 .descr-1 {
+  font-family: 'Roboto Slab';
+  font-style: light;
+  font-weight: 100;
+  font-size: 18px;
+  color: grey;
+  text-align: center;
+}
