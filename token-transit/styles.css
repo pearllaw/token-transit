@@ -1,23 +1,22 @@
 .header {
   position: relative;
-  margin: 0;
-  width: 100%;
+  display: inline-block;
 }
 
 .title1 {
   font-family: 'Roboto Slab';
-  font-style: oblique;
+  font-style: italic;
   font-weight: 300;
   font-size: 35px;
   color: white;
   position: absolute;
   top: 255px;
   left: 445px;
+  text-align: center;
 }
 
 .title2 {
   font-family: 'Roboto Slab', sans-serif;
-  font-style: normal;
   font-weight: 900;
   font-size: 56px;
   text-transform: uppercase;
@@ -32,11 +31,10 @@
   border-radius: 2px;
   padding: 18px 20px;
   height: 53px;
-  width: 190px;
+  width: 195px;
   background-color: rgb(48,154,209);
   color: white;
   font-family: 'Roboto Slab', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   text-transform: uppercase;
@@ -47,62 +45,165 @@
 
 .caption {
   font-family: 'Roboto Slab', sans-serif;
-  font-style: normal;
   font-weight: 600;
   font-size: 10px;
   text-transform: uppercase;
   color: rgb(123,124,124);
   position: absolute;
   word-spacing: .15em;
-  top: 465px;
-  left: 550px;
+  top: 490px;
+  left: 545px;
 }
 
-.sendApass,
-.requestAdemo,
-.download,
-.support, {
+li {
+  list-style-type: none;
   font-family: 'Montserrat', sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  color: rgb(245, 245, 245);
-  position: absolute;
-  top: 25px;
+  text-transform: uppercase;
+  word-spacing: 0.1em;
+  letter-spacing: 0.1em;
+  color: whitesmoke;
+  position: relative;
+  top: -720px;
+  left: 650px;
   right: 60px;
-  margin: 5px;
+  float: left;
+  margin: 15px;
 }
-
 
 .tokenTransit {
   font-family: 'Roboto Slab', sans-serif;
-  font-style: thin;
   font-weight: 100;
   font-size: 17px;
+  text-transform: uppercase;
   color: rgb(48, 161, 247);
   position: absolute;
-  top: 25px;
-  left: 230px;
+  top: 23px;
+  left: 233px;
 }
 
-.svg {
-
+#header-logo {
+  position: relative;
+  top: -706px;
+  right: 320px;
 }
 
-.block-1 .block-title {
+body {
+  background: rgb(238,238,238);
+}
+
+.block-title-1,
+.block-title-2,
+.block-title-3 {
   font-family: 'Roboto Slab', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 26px;
+  font-weight: 900;
+  font-size: 28px;
+  color: rbg(57,57,57);
+  word-spacing: .1em;
   text-align: center;
   text-transform: uppercase;
 }
 
-.block-1 .descr-1 {
+.descr {
+  font-family: 'Roboto Slab';
+  font-weight: 100;
+  font-size: 16px;
+  color:rgb(159, 159, 159);
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.two,
+.footer {
+  background: white;
+}
+
+.block-title-2,
+.block-title-3 {
+  padding: 25px;
+}
+
+.block-2-steps,
+.block-3-titles {
+  position: relative;
+  display: flex;
+  white-space: pre-wrap;
+  text-align: center;
+}
+
+.block-2-content,
+.block-3-content {
+  position: relative;
+  display: flex;
+  white-space: pre-wrap;
+  text-align: center;
+  margin: 0.5%;
+}
+
+.iphone-img {
+  position: relative;
+  display: inline-block;
+  left: 50%;
+  transform: translate(-50%);
+  background: white;
+  padding-bottom: 35px;
+}
+
+h5 {
+  font-family: 'Roboto Slab', sans-serif;
+  font-style: bold;
+  font-weight: 900;
+  font-size: 18px;
+  color: rbg(57,57,57);
+  word-spacing: .1em;
+  margin: auto;
+}
+
+.descr-2,
+.descr-3 {
   font-family: 'Roboto Slab';
   font-style: light;
   font-weight: 100;
-  font-size: 18px;
-  color: grey;
-  text-align: center;
+  font-size: 10px;
+  color:  rgb(159, 159, 159);
+  margin: auto;
+}
+
+.request-button {
+  border: 0;
+  border-radius: 2px;
+  padding: 18px 20px;
+  height: 53px;
+  width: 195px;
+  background-color: rgb(48,154,209);
+  color: white;
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  left: 45%;
+}
+
+.footer {
+  position: relative;
+  display: flex;
+  padding: 5px;
+}
+
+.footer .p {
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 500;
+  font-size: 5px;
+}
+
+.footer li {
+  list-style-type: none;
+  position: relative;
+  float: left;
+  top: 100px;
+  right: 500px;
+  text-transform: capitalize;
+  color: rgb(48,154,209);
 }
