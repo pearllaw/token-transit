@@ -1,29 +1,76 @@
+body {
+  background: rgb(238,238,238);
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   position: relative;
   display: inline-block;
+  text-align: center;
 }
+
+.nav {
+  margin: 0;
+  position: absolute;
+  top: 5.75%;
+  right: 12%;
+}
+
+.nav li {
+  list-style-type: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: white;
+  text-transform: uppercase;
+  margin: 10px;
+  display: inline;
+}
+
+.tokenTransit {
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 100;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: rgb(48, 161, 247);
+  position: absolute;
+  top: 5%;
+  left: 18%;
+  transform: translate(-5%, 20%);
+}
+
+#header-logo {
+  position: absolute;
+  top: 5.25%;
+  left: 15.5%;
+  transform: translate(-5.25%, 15.5%);
+}
+
 
 .title1 {
   font-family: 'Roboto Slab';
   font-style: italic;
   font-weight: 300;
-  font-size: 35px;
-  color: white;
+  font-size: 38px;
+  color:white;
   position: absolute;
-  top: 255px;
-  left: 445px;
-  text-align: center;
+  top: 34%;
+  left: 45%;
+  transform: translate(-34%, 45%);
 }
 
 .title2 {
   font-family: 'Roboto Slab', sans-serif;
   font-weight: 900;
-  font-size: 56px;
+  font-size: 63px;
   text-transform: uppercase;
   color: white;
   position: absolute;
-  top: 292px;
-  left: 415px;
+  top: 39%;
+  left: 46%;
+  transform: translate(-39%, 46%);
 }
 
 .download-button {
@@ -39,8 +86,9 @@
   font-size: 14px;
   text-transform: uppercase;
   position: absolute;
-  top: 430px;
-  left: 535px;
+  top: 52%;
+  left: 50%;
+  transform: translate(-52%, 50%);
 }
 
 .caption {
@@ -48,49 +96,16 @@
   font-weight: 600;
   font-size: 10px;
   text-transform: uppercase;
+  word-spacing: .15em;
   color: rgb(123,124,124);
   position: absolute;
-  word-spacing: .15em;
-  top: 490px;
-  left: 545px;
+  top: 62%;
+  left: 51%;
+  transform: translate(-62%, 51%);
 }
 
-li {
-  list-style-type: none;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  text-transform: uppercase;
-  word-spacing: 0.1em;
-  letter-spacing: 0.1em;
-  color: whitesmoke;
-  position: relative;
-  top: -720px;
-  left: 650px;
-  right: 60px;
-  float: left;
-  margin: 15px;
-}
-
-.tokenTransit {
-  font-family: 'Roboto Slab', sans-serif;
-  font-weight: 100;
-  font-size: 17px;
-  text-transform: uppercase;
-  color: rgb(48, 161, 247);
-  position: absolute;
-  top: 23px;
-  left: 233px;
-}
-
-#header-logo {
-  position: relative;
-  top: -706px;
-  right: 320px;
-}
-
-body {
-  background: rgb(238,238,238);
+.block-title-1 {
+  margin-top: 15px;
 }
 
 .block-title-1,
@@ -99,7 +114,7 @@ body {
   font-family: 'Roboto Slab', sans-serif;
   font-weight: 900;
   font-size: 28px;
-  color: rbg(57,57,57);
+  color: rbg(57, 57, 57);
   word-spacing: .1em;
   text-align: center;
   text-transform: uppercase;
@@ -109,9 +124,10 @@ body {
   font-family: 'Roboto Slab';
   font-weight: 100;
   font-size: 16px;
-  color:rgb(159, 159, 159);
+  color:rgb(174, 174, 174);
   text-align: center;
   white-space: pre-wrap;
+  padding-bottom: 25px;
 }
 
 .two,
@@ -119,55 +135,47 @@ body {
   background: white;
 }
 
-.block-title-2,
+.block-title-2 {
+  padding: 30px;
+}
+
 .block-title-3 {
-  padding: 25px;
+  padding: 35px;
 }
 
-.block-2-steps,
-.block-3-titles {
-  position: relative;
+.block-2 ul,
+.block-3 ul {
   display: flex;
-  white-space: pre-wrap;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
   text-align: center;
+  justify-content: center;
 }
 
-.block-2-content,
-.block-3-content {
-  position: relative;
-  display: flex;
-  white-space: pre-wrap;
-  text-align: center;
-  margin: 0.5%;
-}
-
-.iphone-img {
-  position: relative;
-  display: inline-block;
-  left: 50%;
-  transform: translate(-50%);
-  background: white;
-  padding-bottom: 35px;
-}
-
-h5 {
+.block-2 li,
+.block-3 li {
   font-family: 'Roboto Slab', sans-serif;
-  font-style: bold;
-  font-weight: 900;
-  font-size: 18px;
-  color: rbg(57,57,57);
+  font-weight: 600;
+  font-size: 17px;
+  color:black;
   word-spacing: .1em;
-  margin: auto;
+  padding: 0 20px;
 }
 
-.descr-2,
-.descr-3 {
+.block-2 p,
+.block-3 p {
   font-family: 'Roboto Slab';
-  font-style: light;
   font-weight: 100;
-  font-size: 10px;
+  font-size: 14px;
   color:  rgb(159, 159, 159);
-  margin: auto;
+  white-space: pre-line;
+}
+
+.img {
+  padding-bottom: 10%;
+  width: 80%;
+  margin: -15px;
 }
 
 .request-button {
@@ -184,26 +192,36 @@ h5 {
   text-transform: uppercase;
   position: relative;
   left: 45%;
+  margin-bottom: 15px;
 }
 
 .footer {
   position: relative;
   display: flex;
-  padding: 5px;
 }
 
-.footer .p {
+.footer p {
+  margin-left: 15%;
+  margin-top: 20px;
   font-family: 'Roboto Slab', sans-serif;
-  font-weight: 500;
-  font-size: 5px;
+  font-weight: 100;
+  font-size: 10px;
+  color:  grey;
+}
+
+#social-logos {
+  margin-left: 26%;
+  margin-right: 15%;
+  margin-top: 10px;
 }
 
 .footer li {
-  list-style-type: none;
-  position: relative;
-  float: left;
-  top: 100px;
-  right: 500px;
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 100;
+  font-size: 10px;
   text-transform: capitalize;
   color: rgb(48,154,209);
+  list-style-type: none;
+  display: inline;
+  margin: 10px;
 }
