@@ -201,7 +201,7 @@ body {
 }
 
 .footer p {
-  margin-left: 15%;
+  margin-left: 10%;
   margin-top: 20px;
   font-family: 'Roboto Slab', sans-serif;
   font-weight: 100;
@@ -210,7 +210,7 @@ body {
 }
 
 #social-logos {
-  margin-left: 26%;
+  margin-left: 32%;
   margin-right: 15%;
   margin-top: 10px;
 }
