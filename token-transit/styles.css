@@ -11,6 +11,17 @@ body {
   text-align: center;
 }
 
+#header-logo {
+  position: absolute;
+  top: 5.5%;
+  left: 15.5%;
+  transform: translate(-5.5%, 15.5%);
+}
+
+#header-img {
+
+}
+
 .nav {
   margin: 0;
   position: absolute;
@@ -20,7 +31,7 @@ body {
 
 .nav li {
   list-style-type: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
   font-weight: 400;
   font-size: 12px;
   color: white;
@@ -30,7 +41,7 @@ body {
 }
 
 .tokenTransit {
-  font-family: 'Roboto Slab', sans-serif;
+  font-family: 'Roboto Slab';
   font-weight: 100;
   font-size: 17px;
   text-transform: uppercase;
@@ -38,39 +49,31 @@ body {
   position: absolute;
   top: 5%;
   left: 18%;
-  transform: translate(-5%, 20%);
+  transform: translate(-5%, 18%);
 }
-
-#header-logo {
-  position: absolute;
-  top: 5.25%;
-  left: 15.5%;
-  transform: translate(-5.25%, 15.5%);
-}
-
 
 .title1 {
-  font-family: 'Roboto Slab';
+  font-family: 'Droid Serif';
   font-style: italic;
-  font-weight: 300;
-  font-size: 38px;
+  font-weight: 200;
+  font-size: 31px;
   color:white;
   position: absolute;
-  top: 34%;
-  left: 45%;
-  transform: translate(-34%, 45%);
+  top: 36%;
+  left: 46%;
+  transform: translate(-36%, 46%);
 }
 
 .title2 {
-  font-family: 'Roboto Slab', sans-serif;
+  font-family: 'Montserrat';
   font-weight: 900;
-  font-size: 63px;
+  font-size: 58px;
   text-transform: uppercase;
   color: white;
   position: absolute;
-  top: 39%;
+  top: 40%;
   left: 46%;
-  transform: translate(-39%, 46%);
+  transform: translate(-40%, 46%);
 }
 
 .download-button {
@@ -78,56 +81,60 @@ body {
   border-radius: 2px;
   padding: 18px 20px;
   height: 53px;
-  width: 195px;
+  width: 203px;
   background-color: rgb(48,154,209);
   color: white;
-  font-family: 'Roboto Slab', sans-serif;
-  font-weight: 500;
+  font-family: 'Montserrat';
+  font-weight: 600;
   font-size: 14px;
   text-transform: uppercase;
   position: absolute;
-  top: 52%;
+  top: 55%;
   left: 50%;
-  transform: translate(-52%, 50%);
+  transform: translate(-55%, 50%);
 }
 
 .caption {
-  font-family: 'Roboto Slab', sans-serif;
+  font-family: 'Montserrat';
   font-weight: 600;
   font-size: 10px;
   text-transform: uppercase;
-  word-spacing: .15em;
   color: rgb(123,124,124);
   position: absolute;
-  top: 62%;
-  left: 51%;
-  transform: translate(-62%, 51%);
+  top: 66%;
+  left: 51.5%;
+  transform: translate(-66%, 51.5%);
 }
 
-.block-title-1 {
-  margin-top: 15px;
+section {
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
 }
 
 .block-title-1,
 .block-title-2,
 .block-title-3 {
-  font-family: 'Roboto Slab', sans-serif;
-  font-weight: 900;
-  font-size: 28px;
-  color: rbg(57, 57, 57);
-  word-spacing: .1em;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 32px;
+  color: rbg(28, 28, 28);
   text-align: center;
   text-transform: uppercase;
 }
 
 .descr {
   font-family: 'Roboto Slab';
-  font-weight: 100;
+  font-weight: 300;
   font-size: 16px;
-  color:rgb(174, 174, 174);
+  color:rgb(115, 115, 118);
   text-align: center;
   white-space: pre-wrap;
-  padding-bottom: 25px;
+  padding-bottom: 1.25em;
+}
+
+.two {
+  padding-top: 1.15em;
+  padding-bottom: 1.15em;
 }
 
 .two,
@@ -135,19 +142,11 @@ body {
   background: white;
 }
 
-.block-title-2 {
-  padding: 30px;
-}
-
-.block-title-3 {
-  padding: 35px;
-}
-
 .block-2 ul,
 .block-3 ul {
   display: flex;
   list-style-type: none;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   text-align: center;
   justify-content: center;
@@ -155,21 +154,21 @@ body {
 
 .block-2 li,
 .block-3 li {
-  font-family: 'Roboto Slab', sans-serif;
+  font-family: 'Montserrat';
   font-weight: 600;
-  font-size: 17px;
-  color:black;
-  word-spacing: .1em;
-  padding: 0 20px;
+  font-size: 15px;
+  color:rgb(51, 51, 51);
+  padding: 0 15px;
 }
 
 .block-2 p,
 .block-3 p {
   font-family: 'Roboto Slab';
-  font-weight: 100;
-  font-size: 14px;
-  color:  rgb(159, 159, 159);
+  font-weight: 300;
+  font-size: 11px;
+  color:rgb(115, 115, 118);
   white-space: pre-line;
+  line-height: 1.7em;
 }
 
 .img {
@@ -181,18 +180,19 @@ body {
 .request-button {
   border: 0;
   border-radius: 2px;
-  padding: 18px 20px;
   height: 53px;
-  width: 195px;
+  width: 194px;
   background-color: rgb(48,154,209);
   color: white;
-  font-family: 'Roboto Slab', sans-serif;
-  font-weight: 500;
+  font-family: 'Montserrat';
+  font-weight: 600;
   font-size: 14px;
   text-transform: uppercase;
+  text-align: center;
   position: relative;
-  left: 45%;
-  margin-bottom: 15px;
+  left: 43%;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
 }
 
 .footer {
@@ -203,7 +203,7 @@ body {
 .footer p {
   margin-left: 10%;
   margin-top: 20px;
-  font-family: 'Roboto Slab', sans-serif;
+  font-family: 'Montserrat';
   font-weight: 100;
   font-size: 10px;
   color:  grey;
@@ -216,7 +216,7 @@ body {
 }
 
 .footer li {
-  font-family: 'Roboto Slab', sans-serif;
+  font-family: 'Montserrat';
   font-weight: 100;
   font-size: 10px;
   text-transform: capitalize;
