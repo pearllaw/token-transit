@@ -79,7 +79,6 @@ body {
 .download-button {
   border: 0;
   border-radius: 2px;
-  padding: 18px 20px;
   height: 53px;
   width: 203px;
   background-color: rgb(48,154,209);
@@ -126,28 +125,25 @@ section {
   font-family: 'Roboto Slab';
   font-weight: 300;
   font-size: 16px;
-  color:rgb(115, 115, 118);
+  color:rgb(142, 142, 142);
   text-align: center;
   white-space: pre-wrap;
   padding-bottom: 1.25em;
 }
 
 .two {
-  padding-top: 1.15em;
-  padding-bottom: 1.15em;
+  padding-top: 3.5em;
+  padding-bottom: 3.5em;
 }
 
-.two,
-.footer {
-  background: white;
+.block-title-2 {
+  padding-bottom: 0.25em;
 }
 
 .block-2 ul,
 .block-3 ul {
   display: flex;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   text-align: center;
   justify-content: center;
 }
@@ -166,33 +162,35 @@ section {
   font-family: 'Roboto Slab';
   font-weight: 300;
   font-size: 11px;
-  color:rgb(115, 115, 118);
+  color:rgb(142, 142, 142);
   white-space: pre-line;
   line-height: 1.7em;
 }
 
 .img {
-  padding-bottom: 10%;
-  width: 80%;
-  margin: -15px;
+  width: 60%;
 }
 
 .request-button {
   border: 0;
   border-radius: 2px;
   height: 53px;
-  width: 194px;
+  width: 12rem;
   background-color: rgb(48,154,209);
   color: white;
   font-family: 'Montserrat';
   font-weight: 600;
   font-size: 14px;
   text-transform: uppercase;
-  text-align: center;
+  align-content: center;
   position: relative;
-  left: 43%;
-  margin-top: 1rem;
+  left: 44.5%;
   margin-bottom: 2.5rem;
+}
+
+.two,
+.footer {
+  background: white;
 }
 
 .footer {
@@ -201,7 +199,7 @@ section {
 }
 
 .footer p {
-  margin-left: 10%;
+  margin-left: 8.5%;
   margin-top: 20px;
   font-family: 'Montserrat';
   font-weight: 100;
